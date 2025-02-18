@@ -1,0 +1,16 @@
+{% extends 'layout.html' %}
+{% block content %}
+    <h1>{{ _('Complete Registration') }}</h1>
+    <form method="POST">
+        {{ form.hidden_tag() }}
+        <div>
+            {{ form.name.label }} {{ form.name() }}
+        </div>
+        <div>
+            {{ form.city.label }} {{ form.city() }}
+        </div>
+        <div>
+            {{ form.submit() }}
+        </div>
+    </form>
+{% endblock %}

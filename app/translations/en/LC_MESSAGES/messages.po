@@ -1,0 +1,14 @@
+msgid "Hello, World!"
+msgstr "Hello, World!"
+
+msgid "Register"
+msgstr "Register"
+
+msgid "Login"
+msgstr "Login"
+
+msgid "Logout"
+msgstr "Logout"
+
+msgid "Welcome"
+msgstr "Welcome"

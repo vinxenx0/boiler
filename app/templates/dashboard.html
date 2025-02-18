@@ -1,0 +1,7 @@
+{% extends 'layout.html' %}
+{% block content %}
+    <h1>{{ _('Hello') }}, {{ user.name }}</h1>
+    <p>{{ _('Email') }}: {{ user.email }}</p>
+    <p>{{ _('City') }}: {{ user.city }}</p>
+    <a href="{{ url_for('auth.logout') }}">{{ _('Logout') }}</a>
+{% endblock %}

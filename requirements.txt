@@ -1,0 +1,10 @@
+Flask
+Flask-SQLAlchemy
+Flask-Migrate
+flask-login 
+flask-wtf
+flask-restful
+flask-testing
+pytest
+flask-babel
+email_validator

@@ -1,0 +1,8 @@
+Hello!
+
+Please confirm your email by clicking the link below:
+{{ confirm_url }}
+
+This link will expire in 10 minutes.
+
+Thank you!
